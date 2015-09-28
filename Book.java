@@ -38,13 +38,18 @@ class Book
        return pages;
     }
     
-    public void printAuthor()
+   public void printAuthor()
     {
         System.out.println(author);
     }
     
-    public void printTitle()
+   public void printTitle()
     {
         System.out.println(title);
+    }
+    
+   public void printDetails()
+    {
+        System.out.println("Title: " + title + ", Author: " + author + ", Pages: " + pages);
     }
 }
