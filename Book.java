@@ -14,6 +14,7 @@ class Book
     private int pages;
     private String refNumber;
     private int borrowed;
+    private boolean courseText;
 
     /**
      * Set the author and title fields when this object
@@ -66,6 +67,11 @@ class Book
     {
        return borrowed;
     } 
+    
+   public boolean isCourseText()
+    {
+       return courseText;
+    }  
     
    public void printAuthor()
     {
